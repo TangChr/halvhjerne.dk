@@ -12,21 +12,25 @@ body {
 }
 
 #wrapper {
-	display: table;
 	margin: 40px auto;
 	text-align: center;
 }
 
-#wrapper h1 {
+h1 {
 	color: #e74c3c;
 	font-size: 2.5em;
+}
+
+#arch {
+	color: #c0c0c0;
+	margin-top: 30px;
 }
 
 a,
 a:link,
 a:active,
 a:visited {
-	color: #fff;
+	color: #ffa710;
 	text-decoration: none;
 }
 
