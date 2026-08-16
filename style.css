@@ -12,18 +12,18 @@ body {
 }
 
 #wrapper {
-	margin: 40px auto;
-	text-align: center;
+    width: fit-content;
+    margin: 40px auto;
 }
 
-h1 {
-	color: #e74c3c;
-	font-size: 2.5em;
+#header {
+    color: #e74c3c;
+    font-size: 2.5em;
+    text-align: center;
 }
 
-#arch {
-	color: #c0c0c0;
-	margin-top: 30px;
+#external-url {
+    text-align: right;
 }
 
 a,
@@ -36,4 +36,11 @@ a:visited {
 
 a:hover {
 	text-decoration: underline;
+}
+
+p#arch-btw {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	color: #c0c0c0;
 }
